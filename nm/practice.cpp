@@ -3,6 +3,8 @@
 // #include <bits/stdc++.h>
 using namespace std;
 #define EPS 0.0001
+
+/*This program finds the root of the equation f(x)= logx - sinx using the bisection method*/
 double function(double val)
 {
 	return (log(val) - sin(val));
